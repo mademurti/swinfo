@@ -41,10 +41,10 @@ export default class Nav extends React.Component {
               <li class={location.pathname.match(/^\/people/) ? "active" : ""}>
                 <Link to="people" onClick={this.toggleCollapse.bind(this)}>People</Link>
               </li>
-              {/*<li class={location.pathname.match(/^\/planets/) ? "active" : ""}>
+              <li class={location.pathname.match(/^\/planets/) ? "active" : ""}>
                 <Link to="planets" onClick={this.toggleCollapse.bind(this)}>Planets</Link>
               </li>
-              <li class={location.pathname.match(/^\/species/) ? "active" : ""}>
+              {/*<li class={location.pathname.match(/^\/species/) ? "active" : ""}>
                 <Link to="species" onClick={this.toggleCollapse.bind(this)}>Species</Link>
               </li>
               <li class={location.pathname.match(/^\/starships/) ? "active" : ""}>
